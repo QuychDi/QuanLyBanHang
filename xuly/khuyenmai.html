@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Popup Subscribe Form | Webdevtrick.com</title>
+ <script type="text/javascript">
+//<![CDATA[
+function OpenPopup(Url,WindowName,width,height,extras,scrollbars) {
+var wide = width;
+var high = height;
+var additional= extras;
+var top = (screen.height-high)/2;
+var leftside = (screen.width-wide)/2; newWindow=window.open(''+ Url + '',''+ WindowName + '','width=' + wide + ',height=' + high + ',top=' + top + ',left=' + leftside + ',features=' + additional + '' + ',scrollbars=1');
+newWindow.focus();
+}
+//]]>
+</script>
+</head>
+<body>
+ <a href="javascript: void(0);" onclick=" javascript:OpenPopup('index.php?id=HH00009','WindowName','510','280','scrollbars=1');">Liên kết đến trang khác</a>
+</body>
+</html>
